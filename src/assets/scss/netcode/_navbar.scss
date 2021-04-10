@@ -1,0 +1,26 @@
+         body .navbar {
+             background-color: transparent !important;
+             position: absolute;
+             top: 31px;
+             left: 0px;
+             z-index: 1;
+             width: 100%;
+         }
+         
+         ul.navbar-nav.mr-auto {
+             margin: auto;
+             display: flex;
+             justify-content: space-between;
+             width: 527px;
+             .nav-item:hover {
+                 background-color: #82c434;
+                 border-radius: 4px;
+             }
+             .nav-item a {
+                 color: #fff;
+             }
+             .active {
+                 background-color: #82c434;
+                 border-radius: 4px;
+             }
+         }
