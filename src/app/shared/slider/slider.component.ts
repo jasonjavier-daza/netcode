@@ -4,7 +4,7 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
 
 @Component({selector: 'ngbd-carousel-pause', templateUrl: './slider.component.html'})
 export class SliderComponent {
-  images = [{val:1,format:"png"}, {val:2,format:"png"}, {val:3,format:"png"},{val:5,format:"jpg"} ].map((n) => `../../../../assets/img/banner${n.val}.${n.format} `);
+  images = [{val:1,format:"png"}, {val:2,format:"png"}, {val:3,format:"png"},{val:5,format:"jpg"} ,{val:6,format:"webp"}].map((n) => `../../../../assets/img/banner${n.val}.${n.format} `);
 
   paused = false;
   unpauseOnArrow = false;
