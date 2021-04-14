@@ -1,26 +1,33 @@
-         body .navbar {
-             background-color: transparent !important;
-             position: absolute;
-             top: 31px;
-             left: 0px;
-             z-index: 1;
-             width: 100%;
-         }
-         
-         ul.navbar-nav.mr-auto {
-             margin: auto;
-             display: flex;
-             justify-content: space-between;
-             width: 527px;
-             .nav-item:hover {
-                 background-color: #82c434;
-                 border-radius: 4px;
-             }
-             .nav-item a {
-                 color: #fff;
-             }
-             .active {
-                 background-color: #82c434;
-                 border-radius: 4px;
-             }
-         }
+                     body .navbarscroll {
+                         position: fixed!important;
+                         background-color: #282e3e!important;
+                         top: 0px!important;
+                     }
+                     
+                     body .navbar {
+                         background-color: transparent;
+                         position: absolute;
+                         transition: 1s;
+                         left: 0px;
+                         z-index: 17;
+                         width: 100%;
+                         padding: 1.5rem 5rem 0.5rem 5rem;
+                     }
+                     
+                     ul.navbar-nav.mr-auto {
+                         margin: auto;
+                         display: flex;
+                         justify-content: space-between;
+                         width: 527px;
+                         .nav-item:hover {
+                             background-color: #82c434;
+                             border-radius: 4px;
+                         }
+                         .nav-item a {
+                             color: #fff;
+                         }
+                         .active {
+                             background-color: #82c434;
+                             border-radius: 4px;
+                         }
+                     }
